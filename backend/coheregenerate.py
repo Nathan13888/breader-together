@@ -1,9 +1,12 @@
 import cohere
-co = cohere.Client('m3luFGaJNlrOjPMB0vrU98paYonBfJ1UkzLNYybe') # This is your trial API key
+co = cohere.Client(COHEREAPIKEY) # This is your trial API key
 
+
+from dotenv import load_dotenv
 from fastapi import FastAPI, Request
 
 app = FastAPI()
+load_dotenv()
 
 # could replace ingredient names with variables/parameters that the user inputs as ingredeints
 # temperature is the "craziness" of the api generated recipe. 2 is the max, but it makes the recipe exciting and have a WOW factor
