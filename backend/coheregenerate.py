@@ -10,4 +10,5 @@ response = co.generate(
   return_likelihoods='NONE')
 print('Prediction: {}'.format(response.generations[0].text))
 
-# could replace ingredient names with r
+# could replace ingredient names with variables/parameters that the user inputs as ingredeints
+# temperature is the "craziness" of the api generated recipe. 2 is the max, but it makes the recipe exciting and have a WOW factor
