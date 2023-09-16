@@ -5,7 +5,7 @@ import UserContext from "../../context/userContext";
 import NavBar from "../NavBar/NavBar";
 
 
-function HomePage() {
+function Challenges() {
   const { user, setUser } = useContext(UserContext);
   return (
     <div>
@@ -15,4 +15,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default Challenges;
