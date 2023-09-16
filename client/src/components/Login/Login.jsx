@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { GoogleOutlined } from "@ant-design/icons";
-import "tailwindcss/tailwind.css";
 import { signInWithPopup } from "firebase/auth";
 import { doc, setDoc, getDoc } from "firebase/firestore";
 import { auth, googleAuthProvider, db } from "../../utils/firebaseConfig";

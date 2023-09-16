@@ -10,6 +10,7 @@ import PublicRoute from "./routes/PublicRoute";
 
 import Login from "./components/Login/Login";
 import HomePage from "./components/HomePage/HomePage";
+import Logout from "./components/Logout/Logout";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<PublicRoute component={Login} />} />
           <Route path="/home" element={<LoggedRoute component={HomePage} />} />
+          <Route path="/logout" element={<LoggedRoute component={Logout} />} />
         </Routes>
       </Router>
     </UserProvider>
