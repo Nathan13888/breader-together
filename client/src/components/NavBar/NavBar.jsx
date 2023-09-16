@@ -13,7 +13,7 @@ function NavBar() {
                 <li><a href="/feed" className="hover:text-red-300">feed</a></li>
                 <li><a href="/explore" className="hover:text-red-300">explore</a></li>
                 <li><a href="/challenges" className="hover:text-red-300">challenges</a></li>
-                <li><a href="/profile" className="hover:text-red-300">profile</a></li>
+                <li><a href="/logout" className="hover:text-red-300">logout</a></li>
             </ul>
         </div>
     </div>

@@ -55,17 +55,17 @@ function Login() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600">
       <div className="bg-white p-12 py-20 rounded-2xl shadow-2xl w-[600px] space-y-6 transform hover:scale-105 transition-transform duration-300">
         <h1 className="text-3xl font-bold text-center text-gray-900 leading-tight">
-          Welcome to BreaderTogether
+          breader together
         </h1>
         <p className="text-center text-gray-600">
-          We love bread. We love bread so much that we named our HTN23 project with it...
+          grab ur friends and start ur food alchemy. together.
         </p>
         <div className="flex justify-center items-center">
           <button
             onClick={handleLogin}
             className="text-white px-8 py-2 bg-[#4285F4] hover:bg-[#357ABD] transition-colors duration-300 border-none shadow-lg rounded-full hover:scale-110 transition-transform duration-300"
           >
-            <GoogleOutlined className="text-xl mr-2" /> Sign in with Google
+            <GoogleOutlined className="text-xl mr-2" /> lemme cook. thru google 
           </button>
         </div>
       </div>
