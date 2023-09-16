@@ -41,10 +41,7 @@ function Login() {
       } else {
         // If user doesn't exist, set default values for additional fields
         const defaultData = {
-          optimismCredit: 10,
-          userMetadata: {
-            healthScore: 50,
-          },
+          // TODO: ADD FIELDS
         };
 
         await setDoc(userRef, { ...userObj, ...defaultData });
