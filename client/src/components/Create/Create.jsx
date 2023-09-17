@@ -5,7 +5,7 @@ import UserContext from "../../context/userContext";
 
 
 const sendInput = (user, input, mode, setUserResponse) => {
-  const apiUrl = "http://your_server_address/generate_recipe/";
+  const apiUrl = "https://breader-n4chung.csclub.cloud";
 
   let requestData = {
     mode: mode === "ingredients" ? "ingredients" : "search",
