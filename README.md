@@ -57,11 +57,20 @@ npm run dev
 
 ### 🐳 Building Docker
 ```
+# export some variables
 export REPO_PATH="<repo path>"
-export TAG="<tag name>"
-docker build -t $TAG --label "org.opencontainers.image.source=https://github.com/$REPO_PATH" .
+export TAG="breader-together"
 
+# build and tag image
+docker build -t $TAG --label "org.opencontainers.image.source=https://github.com/$REPO_PATH" .
 docker tag $TAG:latest ghcr.io/nathan13888/$TAG:latest
+
+
+# run docker image
+docker run -it ghcr.io/nathan13888/$TAG:latest
+
+
+# run image to GHCR
 docker push ghcr.io/nathan13888/$TAG:latest
 ```
 
