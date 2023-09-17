@@ -14,7 +14,7 @@ COPY environment.yaml .
 RUN micromamba create -f environment.yaml
 RUN echo "source activate myenv" > ~/.bashrc
 
-ENV COHERE_API_KEY
+ENV COHERE_API_KEY ""
 
 COPY . .
 

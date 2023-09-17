@@ -8,12 +8,28 @@ import cohere
 import nest_asyncio
 import uvicorn
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from prompt import Prompter
 from pydantic import BaseModel
 
 # from enum import Enum
 
 app = FastAPI()
+
+origins = [
+    "https://*.csclub.cloud",
+    "https://breader-n4chung.csclub.cloud",
+    "http://localhost",
+    "http://localhost:8888",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # configure logger
 logger = logging.getLogger('api')
