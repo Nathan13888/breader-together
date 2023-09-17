@@ -59,8 +59,11 @@ function Login() {
         <h1 className="text-3xl font-bold text-center text-[#F53C44] leading-tight">
           breader together!
         </h1>
-        <p className="text-center text-gray-600">
-          recipes, challenges, and a community you'll loave
+        <p className="text-center text-gray-600 leading-1">
+        cerealsly good recipes 🥘🥙 <br />
+        cooking challenges you’ll loave 🍞💗 <br /> 
+        your culinary creations on the global table 🌎📱 <br /> <br />
+        say hi to social media, but breader!
         </p>
         <div className="flex justify-center items-center">
           <button
