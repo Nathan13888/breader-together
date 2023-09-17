@@ -6,7 +6,9 @@ dependencies:
 - pip
 - pip:
   - fastapi
-  - unicorn[standard]
+  - uvicorn[standard]
   - pydantic
+  - nest_asyncio
+  - cohere
   - cohere-core
 
