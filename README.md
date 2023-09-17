@@ -4,7 +4,7 @@
 
 Diving into the vibrant mosaic of cuisines 🥘, we recognize that cooking is an art form. It’s the dance of spices in a curry, the simmering anticipation of a slow-cooked roast, the delight of a dessert's first bite, and above all, the shared joy of feasting. With this platform, receive tailored recipe suggestions 📜, share your culinary journeys or unexpected twists with a spirited community, and get inspired by the dishes brought to life by others. Think of it as a global food forum 🌎, where every post is a delicious chapter in the cookbook of life.
 
-Yearning to experiment with flavors, tackle intricate dishes, or just savor the myriad tastes the world offers? Breader Together is your go-to culinary companion 🍲. Chronicle your food adventures, absorb the wisdom from mishaps, celebrate every delectable achievement, and feel the camaraderie of fellow epicureans. After all, every dish has a story 📖, and we're all ears, eyes, and taste buds for yours. 🍱🥗🍜🍝🍲🥘🍛🍔🍕🍖🍗🍳🍤🍣
+Yearning to experiment with flavors, tackle intricate dishes, or just savor the myriad of tastes the world offers? Breader Together is your go-to culinary companion 🍲. Chronicle your food adventures, absorb the wisdom from mishaps, celebrate every delectable achievement, and feel the camaraderie of fellow epicureans. After all, every dish has a story 📖, and we're all ears, eyes, and taste buds for yours. 🍱🥗🍜🍝🍲🥘🍛🍔🍕🍖🍗🍳🍤🍣
 
 ## 📚 Tech Stack
 - Cohere Command and Classify API
