@@ -12,7 +12,7 @@ const PublicRoute = ({ component: Component }) => {
     return <Component />;
   }
 
-  return <Navigate to="/home" />;
+  return <Navigate to="/feed" />;
 };
 
 export default PublicRoute;

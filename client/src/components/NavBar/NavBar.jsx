@@ -11,8 +11,8 @@ function NavBar() {
     <div className="bg-white border-b p-4 drop-shadow-lg mb-5">
         <div className="container mx-auto flex items-center justify-between">
             <div className="flex items-center">
-                <a href="/" className="text-lg font-semibold text-[#F53C44]">
-                <img src="../../../public/breader_icon.jpg" alt="Logo" className="h-8 w-8 mr-3 object-fill inline-block" />breader together!</a>
+                <img src="../../../public/breader_icon.jpg" alt="Logo" className="h-8 w-8 mr-3 object-fill inline-block" />
+                <p className="text-lg font-semibold text-[#F53C44]">breader together!</p>
             </div>
             <ul className="flex space-x-10">
                 <li><a href="/create" className={(currPage === "create" ? activePage : "") + " hover:text-[#F53C44]"}>create</a></li>

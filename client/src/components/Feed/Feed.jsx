@@ -73,7 +73,7 @@ function Feed() {
       <div className="container flex flex-col items-center mx-auto mt-4 mb-8">
         <Button
           type="text"
-          className="text-[#F53C44] flex items-center border-[#F53C44] rounded-md px-4 py-2 hover:bg-[#F53C44] hover:scale-120 transition duration-300"
+          className="text-[#F53C44] flex items-center border border-[#F53C44] hover:bg-[#F53C44] hover:text-white rounded-md px-4 py-2  hover:scale-120 transition duration-300"
           onClick={() => setIsModalVisible(true)}
         >
           <PlusOutlined />

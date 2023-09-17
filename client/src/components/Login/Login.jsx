@@ -5,6 +5,7 @@ import { doc, setDoc, getDoc } from "firebase/firestore";
 import { auth, googleAuthProvider, db } from "../../utils/firebaseConfig";
 
 import UserContext from "../../context/userContext";
+import "./Login.css";
 
 function Login() {
   const { user, setUser } = useContext(UserContext);
@@ -52,20 +53,21 @@ function Login() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600">
-      <div className="bg-white p-12 py-20 rounded-2xl shadow-2xl w-[600px] space-y-6 transform hover:scale-105 transition-transform duration-300">
-        <h1 className="text-3xl font-bold text-center text-gray-900 leading-tight">
-          breader together
+    <div className="animated-gradient h-screen w-screen flex items-center justify-center">
+      <div className="mx-auto bg-white p-12 py-20 rounded-2xl shadow-2xl w-[600px] space-y-6 transform hover:scale-105 transition-transform duration-300">
+        <img src="../../../public/breader_icon.jpg" alt="Logo" className="mx-auto w-1/5 block" />
+        <h1 className="text-3xl font-bold text-center text-[#F53C44] leading-tight">
+          breader together!
         </h1>
         <p className="text-center text-gray-600">
-          grab ur friends and start ur food alchemy. together.
+          recipes, challenges, and a community you'll loave
         </p>
         <div className="flex justify-center items-center">
           <button
             onClick={handleLogin}
-            className="text-white px-8 py-2 bg-[#4285F4] hover:bg-[#357ABD] transition-colors duration-300 border-none shadow-lg rounded-full hover:scale-110 transition-transform duration-300"
+            className="text-[#F53C44] border border-[#F53C44] px-8 py-2 hover:bg-[#F53C44] hover:text-white transition-colors duration-300 shadow-lg rounded-full hover:scale-110 transition-transform duration-300"
           >
-            <GoogleOutlined className="text-xl mr-2" /> lemme cook. thru google 
+            <GoogleOutlined className="text-xl mr-2" /> sign in with google
           </button>
         </div>
       </div>
