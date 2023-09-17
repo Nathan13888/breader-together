@@ -48,7 +48,7 @@ function Explore() {
       <NavBar />
 
       <div className="container mx-auto mt-12 mb-8 px-4 text-center">
-        <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300 p-8">
+        <div className=" rounded-xl shadow-md hover:shadow-lg transition duration-300 p-8">
           <h1 className="font-semibold text-2xl mb-4">did you know?</h1>
           <p className="text-gray-600 mb-8">{foodFact}</p>
 

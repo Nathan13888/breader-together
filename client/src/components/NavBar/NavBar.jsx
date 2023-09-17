@@ -8,7 +8,7 @@ function NavBar() {
     const activePage = "text-[#F53C44] ";
 
   return (
-    <div className="bg-white border-b p-4 drop-shadow-lg mb-5">
+    <div className="bg-white border-b p-4 drop-shadow-lg mb-7">
         <div className="container mx-auto flex items-center justify-between">
             <div className="flex items-center">
                 <img src="../../../public/breader_icon.jpg" alt="Logo" className="h-8 w-8 mr-3 object-fill inline-block" />
