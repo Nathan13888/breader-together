@@ -82,7 +82,7 @@ function Feed() {
       </div>
 
       <main className="px-4 pb-4 grid grid-cols-2 gap-8 max-w-[1000px] mx-auto">
-        {feeds.map((feed) => (
+        {feeds?.map((feed) => (
           <div key={feed.id} className="p-4 bg-white rounded-xl shadow-md">
             <div className="flex items-center mb-4 space-x-4">
               <img
@@ -104,7 +104,7 @@ function Feed() {
               dotPosition="top"
             >
 
-              {feed.foodImages.map((image, index) => (
+              {feed?.foodImages?.map((image, index) => (
                 <div key={index}>
                   <img
                     className="w-full h-[250px] object-cover"
