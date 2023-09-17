@@ -69,7 +69,7 @@ const Create = () => {
                     <Mode type="search" info="have something in mind?" />
                     <Mode type="surprise me!" info="feeling adventurous?" />
                 </div>
-                <h1 className="mt-8 text-4xl font-bold text-[#F53C44]">...and we'll <span className="italic">rise</span> to the occasion!</h1>
+                <h1 className="mt-8 text-4xl font-bold text-[#F53C44]">...and we&apos;ll <span className="italic">rise</span> to the occasion!</h1>
             </div>
         </div>
     );
